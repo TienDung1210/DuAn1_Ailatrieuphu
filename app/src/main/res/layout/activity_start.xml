@@ -1,0 +1,202 @@
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#4810AA"
+
+    tools:context=".StartActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+
+            <TextView
+                android:text="30"
+                android:gravity="center"
+                android:id="@+id/time"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/bt_home"
+                android:textColor="#fff"
+                android:textStyle="bold"></TextView>
+        </RelativeLayout>
+
+
+
+
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+            <ImageView
+                android:padding="8dp"
+                android:src="@drawable/fifty"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"></ImageView>
+            <ImageView
+                android:padding="8dp"
+                android:src="@drawable/callparent"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"></ImageView>
+            <ImageView
+                android:padding="8dp"
+                android:src="@drawable/supportkhangia"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"></ImageView>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="85dp">
+
+            <View
+                android:layout_centerInParent="true"
+                android:background="#FFEb3b"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"></View>
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/tvch"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/bt_home"
+                android:textColor="#fff"
+                android:textStyle="bold"></TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <View
+                android:layout_centerInParent="true"
+                android:background="#FFEb3b"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"></View>
+
+            <TextView
+                android:id="@+id/tvctl1"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:background="@drawable/bt_home"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <View
+                android:layout_centerInParent="true"
+                android:background="#FFEb3b"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"></View>
+
+            <TextView
+                android:id="@+id/tvctl2"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:background="@drawable/bt_home"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <View
+                android:layout_centerInParent="true"
+                android:background="#FFEb3b"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"></View>
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/tvctl3"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="#fff"
+                android:background="@drawable/bt_home"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <View
+                android:layout_centerInParent="true"
+                android:background="#FFEb3b"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"></View>
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/tvctl4"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="#fff"
+                android:background="@drawable/bt_home"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TextView>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+
+        android:layout_gravity="left"
+        android:background="#4810AA"
+        android:layout_width="250dp"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/lvlist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+
+    </RelativeLayout>
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
